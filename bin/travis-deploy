@@ -4,8 +4,15 @@ set -o errexit
 set -o nounset
 # set -o xtrace
 
+if [ -n "${TRAVIS_COMMIT:=}" ]; then
+  git reset --hard $TRAVIS_COMMIT
+fi
+
 git config --global user.name 'Uppy Bot'
 git config --global user.email 'uppybot@uppy.io'
 
 # because a Travis deploy script has to be a real file
 npm run web:deploy --quiet
+
+# debug
+grep CHANGELOG.md website/public/examples/* -R
