@@ -8,9 +8,9 @@ install:
 - npm run bootstrap -- --no-ci
 script:
 - npm run build
-- npm run test
+# - npm run test
 - if [ "${TRAVIS_PULL_REQUEST}" = "false" ]; then npm run test:acceptance; fi
-- npm run uploadcdn
+# - npm run uploadcdn
 cache:
   apt: true
   directories:
@@ -65,7 +65,7 @@ deploy:
   skip_cleanup: true
   script: bin/travis-deploy
   on:
-    branch: master
+    branch: fix/website-example-numb3rs
 - provider: script
   skip_cleanup: true
   script: packages/@uppy/companion/infra/kube/gcloud-deploy.sh
