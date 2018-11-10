@@ -138,7 +138,13 @@ module.exports = function fileItem (props) {
           </div>
         }
       </div>
+      {/*
+      START
+      We need to show the edit button after the file is uploaded, and not show the edit button before the file is uploaded
       {(!uploadInProgressOrComplete && props.metaFields && props.metaFields.length)
+      FINISH
+      */}
+      {(uploadInProgressOrComplete && props.metaFields && props.metaFields.length)
         ? <button class="uppy-DashboardItem-edit"
           type="button"
           aria-label={props.i18n('editFile')}

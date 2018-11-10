@@ -193,10 +193,14 @@ class Uppy {
   * Shorthand to set state for a specific file.
   */
   setFileState (fileID, state) {
+    /*
+    START
+    we need to take this out because we state for already update photos
     if (!this.getState().files[fileID]) {
       throw new Error(`Can’t set state for ${fileID} (the file could have been removed)`)
     }
-
+    FINISH
+    */
     this.setState({
       files: Object.assign({}, this.getState().files, {
         [fileID]: Object.assign({}, this.getState().files[fileID], state)
