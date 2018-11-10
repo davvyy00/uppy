@@ -1,6 +1,6 @@
 {
-  "name": "uppy",
-  "version": "0.25.6",
+  "name": "uppy-photo-manager",
+  "version": "0.6.1",
   "description": "Extensible JavaScript file upload widget with support for drag&drop, resumable uploads, previews, restrictions, file processing/encoding, remote providers like Instagram, Dropbox, Google Drive, S3 and more :dog:",
   "main": "lib/index.js",
   "jsnext:main": "src/index.js",
@@ -21,7 +21,7 @@
   "pre-commit": "lint-staged",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/transloadit/uppy.git"
+    "url": "git+https://github.com/davvyy00/uppy.git"
   },
   "keywords": [
     "file uploader",
