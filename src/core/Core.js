@@ -89,6 +89,7 @@ class Uppy {
     this.info = this.info.bind(this)
     this.hideInfo = this.hideInfo.bind(this)
     this.addFile = this.addFile.bind(this)
+    this.emitDeleteFileEvent = this.emitDeleteFileEvent.bind(this)
     this.removeFile = this.removeFile.bind(this)
     this.pauseResume = this.pauseResume.bind(this)
     this._calculateProgress = this._calculateProgress.bind(this)
@@ -468,6 +469,20 @@ class Uppy {
       }, 4)
     }
   }
+
+  /**
+   * START
+   * @param file
+   * @returns {function()} Emit an event to uppy with the id of the file to be deleted
+   * FINISH
+   */
+  emitDeleteFileEvent(file) {
+    return ()=>{
+      this.emit('file-deleted', file.id)
+      this.log(`File deleted: ${file.id}`)
+    }
+  }
+
 
   removeFile (fileID) {
     const { files, currentUploads } = this.getState()

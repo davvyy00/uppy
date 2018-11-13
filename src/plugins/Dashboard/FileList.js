@@ -44,6 +44,7 @@ module.exports = (props) => {
         log={props.log}
         i18n={props.i18n}
         removeFile={props.removeFile}
+        emitDeleteFileEvent={props.emitDeleteFileEvent}
         pauseUpload={props.pauseUpload}
         cancelUpload={props.cancelUpload}
         retryUpload={props.retryUpload}

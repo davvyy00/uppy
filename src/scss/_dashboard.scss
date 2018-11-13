@@ -37,7 +37,7 @@
       from { transform: translate3d(0, 0, 0); opacity: 1; }
       to { transform: translate3d(0, -20%, 0); opacity: 0; }
     }
-  
+
   .uppy-Dashboard--modal.uppy-Dashboard--animateOpenClose > .uppy-Dashboard-inner {
     animation: uppy-Dashboard-slideDownAndFadeIn--small 0.3s cubic-bezier(0, 0, .2, 1);
 
@@ -152,7 +152,7 @@
 }
 
 .uppy-Dashboard-close:hover {
-  color: $color-cornflower-blue; 
+  color: $color-cornflower-blue;
 }
 
 
@@ -768,6 +768,22 @@
   }
 }
 
+//START added a delete button to left top side of dashboard preview
+.uppy-DashboardItem-progress.action-buttons{
+  width: 100% !important;
+  div{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.uppy-DashboardItem-remove.delete {
+  color: #FF4757;
+  position: relative;
+  left: -15px;
+}
+//FINISH
+
   .uppy-DashboardItem.is-inprogress:not(.is-resumable) .uppy-DashboardItem-remove {
     display: none;
   }
@@ -1028,7 +1044,7 @@
 .uppy-DashboardFileCard {
   transform: translate3d(0, 0, 0);
   transition: transform 0.2s ease-in-out;
-  
+
   width: 100%;
   height: 100%;
   position: absolute;
