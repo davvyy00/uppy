@@ -3,21 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ce3c5bd4-2d9a-4b0b-9a67-be525ee2faef" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/lib/core/Core.js" afterPath="$PROJECT_DIR$/lib/core/Core.js" />
-      <change beforePath="$PROJECT_DIR$/lib/core/Core.js.map" afterPath="$PROJECT_DIR$/lib/core/Core.js.map" />
-      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/Dashboard.js.map" afterPath="$PROJECT_DIR$/lib/plugins/Dashboard/Dashboard.js.map" />
-      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/FileItem.js" afterPath="$PROJECT_DIR$/lib/plugins/Dashboard/FileItem.js" />
-      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/FileItem.js.map" afterPath="$PROJECT_DIR$/lib/plugins/Dashboard/FileItem.js.map" />
-      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/FileList.js" afterPath="$PROJECT_DIR$/lib/plugins/Dashboard/FileList.js" />
-      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/FileList.js.map" afterPath="$PROJECT_DIR$/lib/plugins/Dashboard/FileList.js.map" />
-      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/index.js" afterPath="$PROJECT_DIR$/lib/plugins/Dashboard/index.js" />
-      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/index.js.map" afterPath="$PROJECT_DIR$/lib/plugins/Dashboard/index.js.map" />
-      <change beforePath="$PROJECT_DIR$/src/core/Core.js" afterPath="$PROJECT_DIR$/src/core/Core.js" />
-      <change beforePath="$PROJECT_DIR$/src/plugins/Dashboard/Dashboard.js" afterPath="$PROJECT_DIR$/src/plugins/Dashboard/Dashboard.js" />
       <change beforePath="$PROJECT_DIR$/src/plugins/Dashboard/FileItem.js" afterPath="$PROJECT_DIR$/src/plugins/Dashboard/FileItem.js" />
-      <change beforePath="$PROJECT_DIR$/src/plugins/Dashboard/FileList.js" afterPath="$PROJECT_DIR$/src/plugins/Dashboard/FileList.js" />
-      <change beforePath="$PROJECT_DIR$/src/plugins/Dashboard/index.js" afterPath="$PROJECT_DIR$/src/plugins/Dashboard/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_dashboard.scss" afterPath="$PROJECT_DIR$/src/scss/_dashboard.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileItem.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FileItem.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/plugins/Dashboard/FileItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="122" column="48" lean-forward="false" selection-start-line="122" selection-start-column="48" selection-end-line="122" selection-end-column="48" />
+            <state relative-caret-position="546">
+              <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -65,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/src/plugins/Dashboard/Dashboard.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="52" column="47" lean-forward="true" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
+              <caret line="52" column="47" lean-forward="false" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -75,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
-              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+              <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -85,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/src/plugins/Dashboard/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="471" column="45" lean-forward="true" selection-start-line="471" selection-start-column="45" selection-end-line="471" selection-end-column="45" />
+              <caret line="471" column="45" lean-forward="false" selection-start-line="471" selection-start-column="45" selection-end-line="471" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -95,13 +81,13 @@
         <entry file="file://$PROJECT_DIR$/src/scss/_dashboard.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="31">
-              <caret line="780" column="17" lean-forward="true" selection-start-line="780" selection-start-column="17" selection-end-line="780" selection-end-column="17" />
+              <caret line="780" column="17" lean-forward="false" selection-start-line="780" selection-start-column="17" selection-end-line="780" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="860">
@@ -125,7 +111,7 @@
         <entry file="file://$PROJECT_DIR$/lib/plugins/Dashboard/FileItem.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="197" column="25" lean-forward="true" selection-start-line="197" selection-start-column="25" selection-end-line="197" selection-end-column="25" />
+              <caret line="197" column="25" lean-forward="false" selection-start-line="197" selection-start-column="25" selection-end-line="197" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -183,8 +169,8 @@
         <option value="$PROJECT_DIR$/src/plugins/Dashboard/index.js" />
         <option value="$PROJECT_DIR$/src/plugins/Dashboard/FileList.js" />
         <option value="$PROJECT_DIR$/src/core/Core.js" />
-        <option value="$PROJECT_DIR$/src/plugins/Dashboard/FileItem.js" />
         <option value="$PROJECT_DIR$/src/plugins/Dashboard/Dashboard.js" />
+        <option value="$PROJECT_DIR$/src/plugins/Dashboard/FileItem.js" />
       </list>
     </option>
   </component>
@@ -376,7 +362,7 @@
         <state relative-caret-position="459">
           <caret line="221" column="6" lean-forward="false" selection-start-line="219" selection-start-column="4" selection-end-line="226" selection-end-column="6" />
           <folding>
-            <marker date="1542143178764" expanded="true" signature="17018:17055" ph="{&quot;fileIDs&quot;: newFileIDs...}" />
+            <marker date="1542144883305" expanded="true" signature="17018:17055" ph="{&quot;fileIDs&quot;: newFileIDs...}" />
           </folding>
         </state>
       </provider>
@@ -408,7 +394,55 @@
     <entry file="file://$PROJECT_DIR$/lib/plugins/Dashboard/FileItem.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="197" column="25" lean-forward="true" selection-start-line="197" selection-start-column="25" selection-end-line="197" selection-end-column="25" />
+          <caret line="197" column="25" lean-forward="false" selection-start-line="197" selection-start-column="25" selection-end-line="197" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/plugins/Dashboard/Dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="52" column="47" lean-forward="false" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/plugins/Dashboard/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="471" column="45" lean-forward="false" selection-start-line="471" selection-start-column="45" selection-end-line="471" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/_dashboard.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="780" column="17" lean-forward="false" selection-start-line="780" selection-start-column="17" selection-end-line="780" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="94" column="25" lean-forward="false" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/plugins/Dashboard/FileList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="987">
+          <caret line="47" column="39" lean-forward="false" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -423,56 +457,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/plugins/Dashboard/FileItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="122" column="48" lean-forward="false" selection-start-line="122" selection-start-column="48" selection-end-line="122" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/plugins/Dashboard/FileList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
-          <caret line="47" column="39" lean-forward="false" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/plugins/Dashboard/Dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="52" column="47" lean-forward="true" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/plugins/Dashboard/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="471" column="45" lean-forward="true" selection-start-line="471" selection-start-column="45" selection-end-line="471" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/_dashboard.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="780" column="17" lean-forward="true" selection-start-line="780" selection-start-column="17" selection-end-line="780" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="94" column="25" lean-forward="false" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
+        <state relative-caret-position="546">
+          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
           <folding />
         </state>
       </provider>

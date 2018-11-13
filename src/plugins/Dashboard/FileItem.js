@@ -28,24 +28,24 @@ const FileItemProgressWrapper = (props) => {
   }
 
   return <div>
-    {/*START added delete button*/}
+    {/* START added delete button */}
     <button class="uppy-DashboardItem-remove delete"
-            type="button"
-            onclick={props.emitDeleteFileEvent(props.file)}
+      type="button"
+      onclick={props.emitDeleteFileEvent(props.file)}
     >
       <svg aria-hidden="true" class="UppyIcon" width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
         <path stroke="#FFF" stroke-width="1" fill-rule="nonzero" vector-effect="non-scaling-stroke" d="M30 1C14 1 1 14 1 30s13 29 29 29 29-13 29-29S46 1 30 1z" />
         <path fill="#FFF" vector-effect="non-scaling-stroke" d="M42 39.667L39.667 42 30 32.333 20.333 42 18 39.667 27.667 30 18 20.333 20.333 18 30 27.667 39.667 18 42 20.333 32.333 30z" />
       </svg>
     </button>
-    {/*FINISH*/}
+    {/* FINISH */}
     <button
-    class="uppy-DashboardItem-progressIndicator"
-    type="button"
-    aria-label={props.progressIndicatorTitle}
-    title={props.progressIndicatorTitle}
-    onclick={props.onPauseResumeCancelRetry}>
-    {props.error
+      class="uppy-DashboardItem-progressIndicator"
+      type="button"
+      aria-label={props.progressIndicatorTitle}
+      title={props.progressIndicatorTitle}
+      onclick={props.onPauseResumeCancelRetry}>
+      {props.error
       ? props.hideRetryButton ? null : iconRetry()
       : <FileItemProgress
         progress={props.file.progress.percentage}
@@ -53,7 +53,7 @@ const FileItemProgressWrapper = (props) => {
         hidePauseResumeCancelButtons={props.hidePauseResumeCancelButtons}
       />
     }
-  </button>
+    </button>
   </div>
 }
 
@@ -120,7 +120,7 @@ module.exports = function fileItem (props) {
         }
         <FilePreview file={file} />
       </div>
-      {/*START added class action-buttons FINISH*/}
+      {/* START added class action-buttons FINISH */}
       <div class="uppy-DashboardItem-progress action-buttons">
         <FileItemProgressWrapper
           progressIndicatorTitle={progressIndicatorTitle}
