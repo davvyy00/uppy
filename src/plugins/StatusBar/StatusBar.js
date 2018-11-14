@@ -56,6 +56,11 @@ module.exports = (props) => {
   let progressMode
   let progressBarContent
 
+  // START because we are using photos that are already uploaded total Progress get NaN sometimes FINISH
+  if (isNaN(progressValue)) {
+    progressValue = 100
+  }
+
   if (uploadState === statusBarStates.STATE_PREPROCESSING || uploadState === statusBarStates.STATE_POSTPROCESSING) {
     const progress = calculateProcessingProgress(props.files)
     progressMode = progress.mode

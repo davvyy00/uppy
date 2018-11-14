@@ -476,13 +476,12 @@ class Uppy {
    * @returns {function()} Emit an event to uppy with the id of the file to be deleted
    * FINISH
    */
-  emitDeleteFileEvent(file) {
-    return ()=>{
+  emitDeleteFileEvent (file) {
+    return () => {
       this.emit('file-deleted', file.id)
       this.log(`File deleted: ${file.id}`)
     }
   }
-
 
   removeFile (fileID) {
     const { files, currentUploads } = this.getState()
@@ -672,7 +671,12 @@ class Uppy {
       progressAll = progressAll + files[file].progress.percentage
     })
 
-    const totalProgress = progressMax === 0 ? 0 : Math.floor((progressAll * 100 / progressMax).toFixed(2))
+    let totalProgress = progressMax === 0 ? 0 : Math.floor((progressAll * 100 / progressMax).toFixed(2))
+
+    // START because we are using photos that are already uploaded total Progress get NaN sometimes FINISH
+    if (isNaN(totalProgress)) {
+      totalProgress = 100
+    }
 
     this.setState({
       totalProgress: totalProgress
