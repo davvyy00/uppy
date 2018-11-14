@@ -534,6 +534,8 @@ module.exports = class Dashboard extends Plugin {
 
     const saveFileCard = (meta, fileID) => {
       this.uppy.setFileMeta(fileID, meta)
+      // START at an event hook for editing meta data FINISH
+      this.uppy.emit('edit-meta-data', fileID, meta)
       this.toggleFileCard()
     }
 
