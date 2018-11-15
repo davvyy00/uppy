@@ -30,19 +30,48 @@ module.exports = class FileCard extends Component {
   }
 
   renderMetaFields (file) {
-    const metaFields = this.props.metaFields || []
-    return metaFields.map((field) => {
-      return <fieldset class="uppy-DashboardFileCard-fieldset">
-        <label class="uppy-DashboardFileCard-label">{field.name}</label>
-        <input class="uppy-c-textInput uppy-DashboardFileCard-input"
-          type="text"
-          data-name={field.id}
-          value={file.meta[field.id]}
-          placeholder={field.placeholder}
-          onkeyup={this.tempStoreMetaOrSubmit}
-          onkeydown={this.tempStoreMetaOrSubmit}
-          onkeypress={this.tempStoreMetaOrSubmit} /></fieldset>
+    let meta = []
+    let me = this
+    let metaFields = this.props.metaFields || []
+
+    metaFields.forEach((field) => {
+      let selected = file.meta[field.id]
+      if (field.type === 'toggle') {
+        meta.push(<div class="uppy-DashboardFileCard-fieldset uppy-toggle-field">
+          <div className={'uppy-toggle-label'}>
+            <label class="uppy-DashboardFileCard-label">{field.name}</label>
+          </div>
+          <div className={'uppy-toggle'}>
+            {selected
+            ? <input type="checkbox" id={field.id}
+              onClick={(e) => {
+                me.meta[field.id] = e.target.checked
+              }}
+              checked />
+              : <input type="checkbox" id={field.id}
+                onClick={(e) => {
+                  console.log(file)
+                  me.meta[field.id] = e.target.checked
+                }}
+              />
+            }
+            <label for={field.id}>Toggle</label>
+          </div>
+        </div>)
+      } else {
+        meta.push(<fieldset class="uppy-DashboardFileCard-fieldset">
+          <label class="uppy-DashboardFileCard-label">{field.name}</label>
+          <input class="uppy-c-textInput uppy-DashboardFileCard-input"
+            type="text"
+            data-name={field.id}
+            value={file.meta[field.id]}
+            placeholder={field.placeholder}
+            onkeyup={this.tempStoreMetaOrSubmit}
+            onkeydown={this.tempStoreMetaOrSubmit}
+            onkeypress={this.tempStoreMetaOrSubmit} /></fieldset>)
+      }
     })
+    return meta
   }
 
   handleSave (ev) {

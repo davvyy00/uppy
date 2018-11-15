@@ -1107,6 +1107,39 @@
   margin-bottom: 12px;
 }
 
+.uppy-DashboardFileCard-fieldset.onoffswitch {
+
+  .onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    height: 20px; padding: 0; line-height: 20px;
+    border: 0px solid #FFFFFF; border-radius: 30px;
+    background-color: #9E9E9E;
+  }
+  .onoffswitch-label:before {
+    content: "";
+    display: block; width: 30px; margin: -5px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 31px;
+    border-radius: 30px;
+    box-shadow: 0 6px 12px 0px #757575;
+  }
+  .onoffswitch-checkbox:checked + .onoffswitch-label {
+    background-color: #42A5F5;
+  }
+  .onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    border-color: #42A5F5;
+  }
+  .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+  }
+  .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    right: 0px;
+    background-color: #2196F3;
+    box-shadow: 3px 6px 18px 0px rgba(0, 0, 0, 0.2);
+  }
+}
+
 .uppy-DashboardFileCard-label {
   display: inline-block;
   vertical-align: middle;
@@ -1123,6 +1156,68 @@
   display: inline-block;
   vertical-align: middle;
   width: 78%;
+}
+
+.uppy-toggle-field{
+  display: flex;
+  .uppy-toggle-label{
+    flex-basis: 25%;
+    label{
+      width: 100%;
+    }
+  }
+  .uppy-toggle{
+    position: relative;
+    top: -7px;
+    flex-basis: 75%;
+  }
+}
+
+.uppy-toggle{
+  $size-factor: 4;
+  width: calc(200px/ #{$size-factor});
+  input[type=checkbox]{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+
+  label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: calc(200px/ #{$size-factor});
+    height: calc(100px/ #{$size-factor});
+    background: grey;
+    display: block;
+    border-radius: calc(100px/ #{$size-factor});
+    position: relative;
+  }
+
+  label:after {
+    content: '';
+    position: absolute;
+    top: calc(10px/ #{$size-factor});
+    left: calc(20px/ #{$size-factor});
+    width: calc(80px / #{$size-factor});
+    height: calc(80px/ #{$size-factor});
+    background: #fff;
+    border-radius: calc(90px/ #{$size-factor});
+    transition: 0.3s;
+  }
+
+  input:checked + label {
+    background: #2196F3;
+  }
+
+  input:checked + label:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+  }
+
+  label:active:after {
+    width: 130px;
+  }
+
 }
 
 
