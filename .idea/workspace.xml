@@ -1,7 +1,341 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce3c5bd4-2d9a-4b0b-9a67-be525ee2faef" name="Default" comment="" />
+    <list default="true" id="ce3c5bd4-2d9a-4b0b-9a67-be525ee2faef" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/lib/core/Core.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/core/Core.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/core/Core.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/core/Core.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/core/Plugin.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/core/Plugin.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/core/Translator.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/core/Translator.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/core/Translator.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/core/Translator.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/core/UppySocket.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/core/UppySocket.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/core/UppySocket.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/core/UppySocket.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/core/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/core/index.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/core/index.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/core/index.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/core/mime-types.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/core/mime-types.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/index.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/locales/cs_CZ.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/locales/cs_CZ.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/locales/de_DE.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/locales/de_DE.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/locales/en_US.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/locales/en_US.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/locales/es_ES.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/locales/es_ES.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/locales/fi_FI.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/locales/fi_FI.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/locales/id_ID.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/locales/id_ID.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/locales/it_IT.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/locales/it_IT.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/locales/nb_NO.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/locales/nb_NO.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/locales/pl_PL.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/locales/pl_PL.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/locales/pt_BR.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/locales/pt_BR.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/locales/ru_RU.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/locales/ru_RU.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/locales/tr_TR.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/locales/tr_TR.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/locales/zh_CN.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/locales/zh_CN.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/AwsS3/Multipart.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/AwsS3/Multipart.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/AwsS3/MultipartUploader.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/AwsS3/MultipartUploader.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/AwsS3/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/AwsS3/index.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/ActionBrowseTagline.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/ActionBrowseTagline.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/Dashboard.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/Dashboard.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/FileCard.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/FileCard.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/FileItem.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/FileItem.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/FileItemProgress.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/FileItemProgress.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/FileList.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/FileList.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/FilePreview.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/FilePreview.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/Tabs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/Tabs.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/getFileTypeIcon.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/getFileTypeIcon.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/icons.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/icons.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/index.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/index.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Dashboard/index.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/DragDrop/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/DragDrop/index.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Dropbox/icons.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Dropbox/icons.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Dropbox/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Dropbox/index.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Dummy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Dummy.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/FileInput.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/FileInput.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Form.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Form.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/GoldenRetriever/IndexedDBStore.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/GoldenRetriever/IndexedDBStore.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/GoldenRetriever/MetaDataStore.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/GoldenRetriever/MetaDataStore.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/GoldenRetriever/ServiceWorker.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/GoldenRetriever/ServiceWorker.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/GoldenRetriever/ServiceWorkerStore.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/GoldenRetriever/ServiceWorkerStore.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/GoldenRetriever/cleanup.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/GoldenRetriever/cleanup.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/GoldenRetriever/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/GoldenRetriever/index.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/GoogleDrive/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/GoogleDrive/index.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Informer.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Informer.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Instagram/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Instagram/index.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/MagicLog.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/MagicLog.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/ProgressBar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/ProgressBar.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/ReduxDevTools.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/ReduxDevTools.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/StatusBar/StatusBar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/StatusBar/StatusBar.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/StatusBar/StatusBarStates.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/StatusBar/StatusBarStates.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/StatusBar/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/StatusBar/index.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/ThumbnailGenerator/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/ThumbnailGenerator/index.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/ThumbnailGenerator/index.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/ThumbnailGenerator/index.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Transloadit/Client.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Transloadit/Client.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Transloadit/Socket.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Transloadit/Socket.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Transloadit/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Transloadit/index.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Transloadit/index.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Transloadit/index.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Tus.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Tus.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Url/UrlUI.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Url/UrlUI.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Url/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Url/index.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Webcam/CameraIcon.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Webcam/CameraIcon.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Webcam/CameraScreen.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Webcam/CameraScreen.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Webcam/PermissionsScreen.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Webcam/PermissionsScreen.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Webcam/RecordButton.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Webcam/RecordButton.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Webcam/SnapshotButton.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Webcam/SnapshotButton.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Webcam/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Webcam/index.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Webcam/supportsMediaRecorder.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Webcam/supportsMediaRecorder.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Webcam/supportsMediaRecorder.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/Webcam/supportsMediaRecorder.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/XHRUpload.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/XHRUpload.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/XHRUpload.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/plugins/XHRUpload.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/Dashboard.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/Dashboard.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/Dashboard.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/Dashboard.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/DashboardModal.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/DashboardModal.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/DashboardModal.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/DashboardModal.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/DragDrop.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/DragDrop.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/DragDrop.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/DragDrop.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/ProgressBar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/ProgressBar.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/ProgressBar.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/ProgressBar.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/StatusBar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/StatusBar.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/StatusBar.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/StatusBar.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/Wrapper.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/Wrapper.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/__mocks__/DashboardPlugin.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/__mocks__/DashboardPlugin.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/__mocks__/DragDropPlugin.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/__mocks__/DragDropPlugin.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/__mocks__/ProgressBarPlugin.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/__mocks__/ProgressBarPlugin.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/__mocks__/StatusBarPlugin.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/__mocks__/StatusBarPlugin.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/index.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/propTypes.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/react/propTypes.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/server/Provider.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/server/Provider.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/server/RequestClient.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/server/RequestClient.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/server/RequestClient.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/server/RequestClient.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/server/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/server/index.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/store/DefaultStore.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/store/DefaultStore.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/store/DefaultStore.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/store/DefaultStore.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/store/ReduxStore.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/store/ReduxStore.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/store/ReduxStore.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/store/ReduxStore.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/canvasToBlob.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/canvasToBlob.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/copyToClipboard.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/copyToClipboard.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/copyToClipboard.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/copyToClipboard.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/dataURItoBlob.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/dataURItoBlob.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/dataURItoBlob.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/dataURItoBlob.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/dataURItoFile.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/dataURItoFile.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/dataURItoFile.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/dataURItoFile.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/emitSocketProgress.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/emitSocketProgress.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/findAllDOMElements.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/findAllDOMElements.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/findDOMElement.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/findDOMElement.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/generateFileID.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/generateFileID.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/generateFileID.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/generateFileID.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getArrayBuffer.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getArrayBuffer.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getArrayBuffer.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getArrayBuffer.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getBytesRemaining.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getBytesRemaining.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getBytesRemaining.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getBytesRemaining.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getETA.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getETA.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getETA.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getETA.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getFileNameAndExtension.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getFileNameAndExtension.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getFileNameAndExtension.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getFileNameAndExtension.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getFileType.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getFileType.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getFileType.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getFileType.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getFileTypeExtension.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getFileTypeExtension.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getFileTypeExtension.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getFileTypeExtension.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getSocketHost.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getSocketHost.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getSocketHost.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getSocketHost.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getSpeed.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getSpeed.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getSpeed.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getSpeed.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getTimeStamp.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/getTimeStamp.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/isDOMElement.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/isDOMElement.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/isObjectURL.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/isObjectURL.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/isObjectURL.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/isObjectURL.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/isPreviewSupported.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/isPreviewSupported.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/isPreviewSupported.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/isPreviewSupported.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/isTouchDevice.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/isTouchDevice.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/isTouchDevice.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/isTouchDevice.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/limitPromises.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/limitPromises.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/limitPromises.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/limitPromises.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/mimeTypes.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/mimeTypes.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/prettyETA.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/prettyETA.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/prettyETA.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/prettyETA.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/runPromiseSequence.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/runPromiseSequence.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/runPromiseSequence.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/runPromiseSequence.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/sampleImageDataURI.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/sampleImageDataURI.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/secondsToTime.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/secondsToTime.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/secondsToTime.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/secondsToTime.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/settle.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/settle.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/settle.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/settle.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/toArray.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/toArray.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/toArray.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/toArray.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/truncateString.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/truncateString.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/truncateString.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/truncateString.test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/views/ProviderView/AuthView.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/views/ProviderView/AuthView.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/views/ProviderView/Breadcrumbs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/views/ProviderView/Breadcrumbs.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/views/ProviderView/Browser.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/views/ProviderView/Browser.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/views/ProviderView/Filter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/views/ProviderView/Filter.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/views/ProviderView/FooterActions.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/views/ProviderView/FooterActions.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/views/ProviderView/Item.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/views/ProviderView/Item.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/views/ProviderView/ItemList.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/views/ProviderView/ItemList.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/views/ProviderView/Loader.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/views/ProviderView/Loader.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/views/ProviderView/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/views/ProviderView/index.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/views/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/views/index.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -64,7 +398,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileItem.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FileItem.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/plugins/Dashboard/FileItem.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -74,31 +408,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-408">
-              <caret line="94" column="25" lean-forward="false" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="uppy.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/uppy.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="839">
-              <caret line="16257" column="0" lean-forward="false" selection-start-line="16257" selection-start-column="0" selection-end-line="16257" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileItem.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/plugins/Dashboard/FileItem.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="193" column="47" lean-forward="false" selection-start-line="193" selection-start-column="47" selection-end-line="193" selection-end-column="47" />
+            <state relative-caret-position="495">
+              <caret line="107" column="38" lean-forward="true" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -182,13 +496,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="2" />
-    <option name="width" value="1928" />
+    <option name="y" value="33" />
+    <option name="width" value="1934" />
     <option name="height" value="1010" />
   </component>
   <component name="ProjectView">
@@ -446,14 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="94" column="25" lean-forward="false" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/plugins/Dashboard/Dashboard.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -490,6 +792,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="121" column="12" lean-forward="false" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="107" column="38" lean-forward="true" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
           <folding />
         </state>
       </provider>
